@@ -1,0 +1,16 @@
+{
+  "id": "3350402",
+  "name": "knowledge",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "知识付费网站icon",
+  "glyphs": [
+    {
+      "icon_id": "16615922",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    }
+  ]
+}
