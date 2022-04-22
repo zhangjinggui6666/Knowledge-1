@@ -3,13 +3,14 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
-			<u-button type="primary" :disabled="disabled" text="禁用"></u-button>
+			<u-button type="primary"  text="禁用"></u-button>
 			<view class="iconfont icon-left"></view>
 		</view>
 	</view>
 </template>
 
 <script>
+
 	export default {
 		data() {
 			return {
@@ -17,7 +18,7 @@
 			}
 		},
 		onLoad() {
-
+		
 		},
 		methods: {
 
