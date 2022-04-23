@@ -18,6 +18,6 @@
 	@import "@/uni_modules/uview-ui/index.scss";
 	@import url('https://at.alicdn.com/t/font_3350402_80z3kk2n3ae.css');
 	//@import "@/common/font/iconfont.css";
-	//使用胭脂红主题色
-	@import url('@/common/theme/rouge_red.scss');
+	@import url('@/common/css/flex.css');
+
 </style>

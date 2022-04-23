@@ -1,17 +1,22 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-			<u-button type="primary"  text="禁用"></u-button>
-			<view class="iconfont icon-left"></view>
-		</view>
+		<uniHeader></uniHeader>
+		<uniBanner></uniBanner>
+		<view @click="handleClick">点击我</view>
+		<uniFooter></uniFooter>
 	</view>
 </template>
 
 <script>
-
+	import uniFooter from '@/components/uni-footer.vue'
+	import uniHeader from '@/components/uni-header.vue'
+	import uniBanner from '@/components/uni-banner.vue'
 	export default {
+		components:{
+			uniFooter,
+			uniHeader,
+			uniBanner
+		},
 		data() {
 			return {
 				title: 'Hello'
@@ -21,7 +26,15 @@
 		
 		},
 		methods: {
-
+			handleClick(){
+				// this.$tip('success','成功提示');
+			//	this.toast('11111','success')
+			this.load();
+				// this.$u.toast({
+				// 	type:'success',
+				// 	message:'成功提示'
+				// });
+			},
 		}
 	}
 </script>
