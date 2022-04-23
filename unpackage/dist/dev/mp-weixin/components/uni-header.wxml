@@ -1,0 +1,1 @@
+<view class="header flex align-center"><view class="lt flex flex1 align-center justify-center">左</view><view class="md"><u--input vue-id="fa3815be-1" placeholder="优质内容等你来搜" prefixIcon="search" prefixIconStyle="font-size: 22px;color: #909399" clearable="{{true}}" shape="circle" bind:__l="__l"></u--input></view><view class="rt flex flex1 align-center justify-center">右</view></view>

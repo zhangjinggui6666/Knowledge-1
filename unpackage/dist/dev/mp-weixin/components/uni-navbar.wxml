@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="95479504-1" title="{{title}}" autoBack="{{true}}" title-color="#333" data-event-opts="{{[['^rightClick',[['rightClick']]]]}}" bind:rightClick="__e" bind:__l="__l"></u-navbar></view>

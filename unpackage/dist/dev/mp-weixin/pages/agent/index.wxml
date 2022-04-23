@@ -1,0 +1,1 @@
+<view><uni-navbar vue-id="5d37f787-1" title="代理赚钱" bind:__l="__l"></uni-navbar><view class="content"><view class="item1"><view></view></view></view><uni-footer vue-id="5d37f787-2" bind:__l="__l"></uni-footer></view>

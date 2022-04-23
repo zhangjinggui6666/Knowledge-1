@@ -1,0 +1,1 @@
+<view class="banner"><u-swiper vue-id="6ab1383c-1" list="{{list}}" indicator="{{true}}" indicatorMode="line" circular="{{true}}" height="180" bind:__l="__l"></u-swiper></view>

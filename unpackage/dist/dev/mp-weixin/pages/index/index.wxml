@@ -1,0 +1,1 @@
+<view class="content"><uni-header vue-id="8dd740cc-1" bind:__l="__l"></uni-header><uni-banner vue-id="8dd740cc-2" bind:__l="__l"></uni-banner><uni-footer vue-id="8dd740cc-3" bind:__l="__l"></uni-footer></view>

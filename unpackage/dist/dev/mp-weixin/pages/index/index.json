@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "uni-footer": "/components/uni-footer",
+    "uni-header": "/components/uni-header",
+    "uni-banner": "/components/uni-banner"
+  }
+}
