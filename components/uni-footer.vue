@@ -22,9 +22,9 @@
 				value:0,
 				list:[
 					'/pages/index/index',
-					'/pages/agent/index',
-					'/pages/vip/index',
-					'/pages/user/index'
+					'pages/agent/index',
+					'pages/vip/index',
+					'pages/user/index'
 				]
 			};
 		},

@@ -1,5 +1,6 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		<uniNavbar title="代理赚钱"></uniNavbar>
 		<view class="content">
 			<view class="item1">
@@ -7,19 +8,14 @@
 			</view>
 		</view>
 		<uniFooter></uniFooter>
+=======
+		
+>>>>>>> parent of 31bfd96 (1)
 	</view>
 </template>
 
 <script>
-	//引入组件
-	import uniNavbar from '@/components/uni-navbar.vue'
-	import uniFooter from '@/components/uni-footer.vue'
 	export default {
-		//使用组件
-		components:{
-			uniNavbar,
-			uniFooter
-		},
 		data() {
 			return {
 				
