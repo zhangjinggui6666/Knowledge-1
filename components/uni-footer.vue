@@ -20,11 +20,18 @@
 		data() {
 			return {
 				value:0,
+				list:[
+					'/pages/index/index',
+					'pages/agent/index',
+					'pages/vip/index',
+					'pages/user/index'
+				]
 			};
 		},
 		methods:{
-			handleSwitch(name){
-				console.log(name);
+			handleSwitch(val){
+				let url = this.list[val];
+				this.goUrl(url);
 			}
 		},
 	}
