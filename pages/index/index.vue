@@ -2,7 +2,7 @@
 	<view class="content">
 		<uniHeader></uniHeader>
 		<uniBanner></uniBanner>
-		<view @click="handleClick">点击我</view>
+		
 		<uniFooter></uniFooter>
 	</view>
 </template>
